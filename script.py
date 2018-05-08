@@ -57,7 +57,7 @@ def posti():
     #session = request.json["session"]
     #querytext = request.json["querytext"]
     #mobilenumber = request.json["mobilenumber"]
-    respo = {"fulfillmentText": "This is the response received","fulfillmentMessages": [],"source": "example.com","payload": {},"outputContexts": [ ],"followupEventInput": {}}
+    respo = {"fulfillmentText": "This is the response received from webhook","fulfillmentMessages": [],"source": "example.com","payload": {},"outputContexts": [ ],"followupEventInput": {}}
     return jsonify(respo)
 
 @app.route('/about/')
